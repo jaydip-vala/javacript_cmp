@@ -63,11 +63,48 @@
         ```
 
     * confirm : it shows a message and waits for the user to press **Ok** or **Cancel**
-    
+
         ```
             let con = confirm("Are you sure want to delete");
             alert( con );
         ```
 
+#  Basic operators
+    ## Maths 
+        * Addition +
+        * Subtraction -
+        * Multiplication *
+        * Division /
+        * Exponentiation ** 
+        * Remainder %
+    ## Assignment
+        * +=
+        * -=
+        * *=
+       
+    ## Increment/decrement
+        * ++
+        * --
+    ## Bitwise operators
+        * AND ( & )
+        * OR ( | )
+        * XOR ( ^ )
+        * NOT ( ~ )
 
-        
+# Type of Loop
+    * for 
+    * while 
+    * do while
+    * statement 
+        * if/if else/else
+        * switch statement
+
+
+# Function
+    * In JavaScript, a function is not a _magical language structure_, but a special kind of value.
+
+    ```
+        function xyz() {
+         alert( "Hello" );
+        }
+    ```
