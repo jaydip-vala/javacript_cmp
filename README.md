@@ -1,7 +1,4 @@
 # javacript_cmp
-
-## learning  in javascript
-
 # General or basic knowledge of javascript 
     * An Introduction to JavaScript (what is javascript)
         * The programs in this language are called scripts. They can be written right in a web page’s HTML and run automatically as the page loads.
@@ -17,7 +14,7 @@
 # Javascript in Html Document
     * using <script></script> in body
     
-
+# 
 *  code structure
     * [1,2].forEach((x)=>{
     console.log(x)
