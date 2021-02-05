@@ -11,13 +11,18 @@
     *  what can't in browser javascript do?
         * JavaScript on a webpage may not read/write arbitrary files on the hard disk, copy them or execute programs. It has no direct access to OS functions.
 
-# Javascript in Html Document
+# How to Write Javascript in Html Document
     * using <script></script> in body
     
-# 
-*  code structure
-    * [1,2].forEach((x)=>{
-    console.log(x)
-    })
-    
+#   Variables in Javascript   
+    * Number - consider number data type ie:(phone number,age)
+    * String - consider character ie:(name,address)
+    * Boolean - consider true or false 
+    * Big int - large number
+    * Array - it is collection of element with same datatype
+    * Undefined - when value is not define/
+    * Null - Empty
+    * Object - key : value
 
+# Why use **use strict**
+    * _use strict_ indicates that the code is to be executed in strict mode
