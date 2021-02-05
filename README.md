@@ -35,6 +35,7 @@
 # Difference between var and let in JavaScript
     var :  var is function scoped 
     let :  let is block scoped 
+
     ``` 
         let a = 'hello'; // globally scoped
         var b = 'world'; // globally scoped
@@ -47,21 +48,26 @@
     ```
 # alert, prompt, confirm
     * alert : it  shows a message.
-        ``` 
+
+    ``` 
         alert("Hello");
-        ```
+    ```
+
     * prompt :it shows a message and asking the user to input text
             if User clicked submit then return input text
             if User clicked cancel or ESC then return Null
-        ```
-            let age = prompt('Age', 100);
-            alert(`You are ${age} years old!`);
-        ```
+
+    ```
+        let age = prompt('Age', 100);
+        alert(`You are ${age} years old!`);
+    ```
+
     * confirm : it shows a message and waits for the user to press **Ok** or **Cancel**
-        ```
-            let con = confirm("Are you sure want to delete");
-            alert( con );
-        ```
+
+    ```
+        let con = confirm("Are you sure want to delete");
+        alert( con );
+    ```
 
 
         
