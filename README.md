@@ -50,16 +50,19 @@
     * alert : it  shows a message.
 
     ``` 
-        alert("Hello");
+     alert("Hello");
+
     ```
 
     * prompt :it shows a message and asking the user to input text
+
             if User clicked submit then return input text
             if User clicked cancel or ESC then return Null
 
     ```
         let age = prompt('Age', 100);
         alert(`You are ${age} years old!`);
+
     ```
 
     * confirm : it shows a message and waits for the user to press **Ok** or **Cancel**
@@ -67,6 +70,7 @@
     ```
         let con = confirm("Are you sure want to delete");
         alert( con );
+        
     ```
 
 
