@@ -90,6 +90,13 @@
         * OR ( | )
         * XOR ( ^ )
         * NOT ( ~ )
+    ## Equality operator
+        * == 
+        * !=
+
+# difference between == and ===
+    * == operator compare two variable values but not datatype 
+    * === operator compare two variable datatype as wel as value
 
 # Type of Loop
     * for 
@@ -107,4 +114,27 @@
         function xyz() {
          alert( "Hello" );
         }
+        xyz();
     ```
+#  Primitives VS Object
+    * Primitive : 
+                Primitives are known as being immutable data types.
+                because there is no way to change a primitive value once it gets created.
+                ```
+                    var string1 = 'This is a string.';
+                    string1[0] = 'H'
+                    console.log(string1)
+                ```
+                we can not change the value of string1 because its a immutable data types.
+
+    * Object(Non-primitive):
+                        Non-primitive values are mutable data types. 
+                        The value of an object can be changed after it gets created
+
+                        ```
+                            var arr = [ 'one', 'two', 'three', 'four', 'five' ];
+                            arr[1] = 'TWO';
+                            console.log(arr) // [ 'one', 'TWO', 'three', 'four', 'five' ];
+
+                        ```
+                        we can  change the value of string1 because its a mutable data types.
